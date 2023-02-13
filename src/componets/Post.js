@@ -7,7 +7,7 @@ export default function Post(props) {
     const [clicado  , setPegaEsse] = useState(false)
     const [contador ,setConta]= useState(props.Npessoas)
     function contaLick(){
-        if(escolhido===false){setConta(contador+1)}
+        if(escolhido===false){setConta(contador+(parseInt(1)))}
         else{setConta(contador-1)}
         setPega(!escolhido)
     }
@@ -49,7 +49,7 @@ export default function Post(props) {
                 <div class="curtidas">
                     <img src={props.fotoM} />
                     <div class="texto" data-test="likes-number">
-                        Curtido por <strong>{props.Curtido}</strong> e <strong>outras {contador} pessoas</strong>
+                        Curtido por <strong>{props.Curtido}</strong> e <strong>outras {Number(contador)} pessoas</strong>
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ export default function Post(props) {
                 <div class="curtidas">
                     <img src={props.fotoM} />
                     <div class="texto">
-                        Curtido por <strong>{props.Curtido}</strong> e <strong>{props.Npessoas}</strong>
+                        Curtido por <strong>{props.Curtido}</strong> e <strong>outras {props.Npessoas} pessoas</strong>
                     </div>
                 </div>
             </div>

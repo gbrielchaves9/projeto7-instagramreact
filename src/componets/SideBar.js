@@ -13,7 +13,7 @@ export default function SideBar() {
     }
 
     return (
-        <div class="sidebar">
+        <div class="sidebar" >
              <Usuario PegaNome={PegaNome} Pega={Pega} sub={"SubNome"} fts={fts}  setIMG={setIMG}
                 />
         </div>

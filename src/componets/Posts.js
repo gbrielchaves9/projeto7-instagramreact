@@ -11,7 +11,11 @@ export default function Posts() {
         {
         nome: "meowed2", fotoP: "./assets/img/meowed.svg", mais: " ellipsis-horizontal",
         fotoG: "./assets/img/gato-telefone.svg", icone1: "heart-outline", icone2: "chatbubble-outline", icone3: "paper-plane-outline",
-        iconeBaixo: "bookmark-outline", Curtido: "respondeai", Npessoas: "5",fotoM:"./assets/img/respondeai.svg"}
+        iconeBaixo: "bookmark-outline", Curtido: "respondeai", Npessoas: "5",fotoM:"./assets/img/respondeai.svg"},
+        {
+            nome: "meowed3", fotoP: "./assets/img/meowed.svg", mais: " ellipsis-horizontal",
+            fotoG: "./assets/img/gato-telefone.svg", icone1: "heart-outline", icone2: "chatbubble-outline", icone3: "paper-plane-outline",
+            iconeBaixo: "bookmark-outline", Curtido: "respondeai", Npessoas: "7",fotoM:"./assets/img/respondeai.svg"}
         
     ]
 

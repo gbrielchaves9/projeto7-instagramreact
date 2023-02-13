@@ -5,12 +5,12 @@ export default function Usuario(props) {
     }
     return (
         <div class="usuario">
-            <img src={props.fts} onClick={PegaFoto}/>
-            <div class="texto">
+            <img src={props.fts} onClick={PegaFoto} data-test="profile-image"/>
+            <div class="texto" data-test="name">
             <strong> {props.sub}</strong>
                 <span>
-                    <strong> {props.Pega}</strong>
-                    <ion-icon name="pencil" onClick={props.PegaNome}></ion-icon>
+                    <strong> {props.Pega} </strong>
+                    <ion-icon name="pencil" onClick={props.PegaNome} data-test="edit-name"></ion-icon>
                 </span>
             </div>
         </div>

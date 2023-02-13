@@ -6,6 +6,8 @@ import Stories from "./Stories"
 import Posts from "./Posts"
 import Sugestoes from "./Sugestoes"
 
+
+
 export default function App() {
     return (
         <>
@@ -13,13 +15,14 @@ export default function App() {
             <div class="corpo">
                 <div class="esquerda">
                     <Corpo />
-                    <Stories />
-                    <Posts/>
+                   <Stories />
+                    <Posts />
                 </div>
                 <div class="sidebar">
+
                     <Usuario />
+                    <Sugestoes />
                     <SideBar />
-                    <Sugestoes/>
 
                 </div>
             </div>

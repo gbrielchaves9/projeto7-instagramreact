@@ -4,6 +4,7 @@ import { FaRocket } from 'react-icons/fa';
 export default function Post(props) {
 
     const [escolhido , setPega] = useState(false)
+    const [clicado  , setPegaEsse] = useState(false)
     return (
         <div class="post">
             <div class="topo">
@@ -23,12 +24,12 @@ export default function Post(props) {
             <div class="fundo">
                 <div class="acoes">
                     <div>
-                        <ion-icon class={escolhido? "vermelho" : "" } onClick={()=> setPega(!escolhido)} name={props.icone1}></ion-icon>
+                        <ion-icon class={escolhido? "vermelho" : "" } onClick={()=> setPega(!escolhido)} name={escolhido?"heart" : "heart-outline"}></ion-icon>
                         <ion-icon name={props.icone2}></ion-icon>
                         <ion-icon name={props.icone3}></ion-icon>
                     </div>
                     <div>
-                        <ion-icon name={props.iconeBaixo}></ion-icon>
+                        <ion-icon onClick={()=> setPegaEsse(!clicado)}name={clicado ?"bookmark" : "bookmark-outline"}></ion-icon>
                     </div>
                 </div>
 

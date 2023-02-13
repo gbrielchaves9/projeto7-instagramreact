@@ -23,9 +23,7 @@ export default function Post(props) {
             <div class="fundo">
                 <div class="acoes">
                     <div>
-                        <button class={escolhido? "vermelho" : "" } onClick={()=> setPega(!escolhido)} >
-                        <ion-icon name={props.icone1}></ion-icon>
-                        </button>
+                        <ion-icon class={escolhido? "vermelho" : "" } onClick={()=> setPega(!escolhido)} name={props.icone1}></ion-icon>
                         <ion-icon name={props.icone2}></ion-icon>
                         <ion-icon name={props.icone3}></ion-icon>
                     </div>
